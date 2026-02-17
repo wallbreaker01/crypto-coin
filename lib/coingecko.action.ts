@@ -3,7 +3,7 @@
 import { url } from 'inspector/promises';
 import qs from 'query-string';
 const BASE_URL = process.env.COINGECKO_BASE_URL;
-const API_KEY = process.env.NEXT_PUBLIC_COINGECKO_API_KEY;
+const API_KEY = process.env.COINGECKO_API_KEY;
 
 if (!BASE_URL) throw new Error('could not find the base url.');
 if (!API_KEY) throw new Error('could not find the api key.');
