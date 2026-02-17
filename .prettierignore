@@ -1,0 +1,7 @@
+# Prettier ignore rules
+node_modules/
+build/
+dist/
+.next/
+coverage/
+public/
