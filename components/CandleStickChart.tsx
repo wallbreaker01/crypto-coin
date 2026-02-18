@@ -5,7 +5,6 @@ import { fetcher } from "@/lib/coingecko.action";
 import { convertOHLCData } from "@/lib/utils";
 import { CandlestickSeries, createChart, IChartApi, ISeriesApi, OhlcData } from "lightweight-charts";
 import { startTransition, useEffect, useRef, useState, useTransition } from "react";
-import { start } from "repl";
 
 const CandleStickChart = ({ children, data, coinId, height = 360, initialPeriod = 'daily' }: CandlestickChartProps) => {
     const chartContainerRef = useRef<HTMLDivElement | null>(null);
